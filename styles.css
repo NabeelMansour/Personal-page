@@ -1,0 +1,208 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100px;
+    height: 130px;
+}
+
+.hero {
+    width: 720px;
+    height: 343px;
+    background: url('images/malmo.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+  width: 201px;
+  height: 34px;
+  background: #1D3557;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #FFF;
+  margin: 10px;
+  padding: 5px 12px;
+}
+
+.hero h1:hover, .hero h2:hover {
+    background: #e1f1ff;
+    color: #000;
+}
+
+.hero h2 {
+  width: 365px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.72px;
+  line-height: 22px;
+  color: #fff;
+  background: #457B9D;
+  border-radius: 10px;
+  padding: 5px 29px 8px 28px;
+  
+}
+
+.activity {
+  width: 720px;
+  height: 343px;
+  background: #F1FAEE;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.activity-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 99.34px;
+    margin-bottom: 23px;
+    transition: all 1s;
+}
+
+.activity-img:hover {
+    transform: rotate(180deg);
+}
+
+.concert {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.activity_1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 183px;
+    height: 32px;
+}
+
+.activity_1 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 0px;
+    margin-top: 17px;
+}
+
+.activity_1 h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    width: 183px;
+    height: 32px;
+}
+
+.activity_1 p, h4 {
+    color: #1D3557;
+}
+
+.guide {
+    width: 720px;
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.section-guide {
+    width: 400px;
+    height: 294px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.section-guide h3 {
+    margin-bottom: 14px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.section-guide p {
+    margin: 0px 11px 26px 7px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.section-guide h3, h4, p {
+    color: #1D3557;
+}
+
+.guide {
+    background: #1d3557;
+}
+
+#guide-img {
+    width: 180px;
+    height: 230px;
+    border-radius: 10px;
+    margin: 23px 13px;
+    transition: all 2s;
+}
+
+#guide-img:hover {
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+
+.section-guide:hover {
+    background: #219ebc;
+    color: white;
+}
+
+.footer {
+    height: 50px;
+    width: 720px;
+    background: #457b9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer p {
+    color: #fff;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
